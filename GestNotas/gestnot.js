@@ -59,7 +59,3 @@ function agregarNota(titulo, descripcion) {
             listarNotas();
             eliminarNota('Compras');
             listarNotas();
-
-            
-    
-    

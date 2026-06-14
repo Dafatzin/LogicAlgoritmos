@@ -1,0 +1,13 @@
+.Titulo{font-family: 'Playwrite AU VIC Guides', cursive; font-size: 48px; color: #d11191;text-align: center; margin-top: 3px; width:40%;}
+.Nav{display:flex;flex-wrap:wrap;align-items: center; justify-content:center;column-gap:10%}
+.Buscador{width:20%;height:75px;display: flex;align-items:center;flex-wrap:wrap;column-gap:10%;}
+#Agregar{background-color: #d11191; color: white; padding: 10px 14px; border-radius: 6px; cursor: pointer;width:6%;height:20%;}
+#BuscarText{border-color:#d11191;border-width:3px;border-radius:3px;width:60%;height:20px;}
+#Buscar{background-color: #d11191; color: white; padding: 6px 14px; border-radius: 6px; cursor: pointer;width:25%;height:50%}
+/* Inicia el fondo de las paginas de las recetas */
+.Recetas{background-image:url('EspiralRosa_.png');background-size: cover;height:1000px;width:98%;position:relative;}
+.Separadores{display:flex;flex-direction:column;gap: 32px;width:4%;position:absolute;right:0%;top:5%;transition: transform 0.3s ease;}
+#Fecha{margin-right: 10px;position:absolute;top:6%;right:6%;}
+.SeparadorTitulo{display:flex;position:absolute;left:15%;font-size:26px;color: #faa9df;width: 100%;}
+.SeparadorTitulo:hover{color: #faa9df;text-shadow: 0 0 5px #faa9df, 0 0 6px #faa9df, 0 0 9px #b32a85, 0 0 12px #faa9df, 0 0 15px #7a0b55;}
+#AC:hover,#DF:hover,#GI:hover,#JL:hover,#MÑ:hover,#OQ:hover,#RT:hover,#UW:hover,#XZ:hover{transform: translateX(10px);}
