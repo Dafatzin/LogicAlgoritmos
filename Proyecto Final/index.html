@@ -19,8 +19,59 @@
         <button type="submit" id="Buscar">Buscar</button>
         </div>
     </nav>
+
     <section class="Recetas">
-        <img src="Fecha.png" id="Fecha" alt="Fecha">
+        <div id="Fecha">
+        <img src="Fecha.png" alt="Fecha">
+        <div id="FechaTexto">
+         <p>14</p> <p>06</p> <p>2026</p>
+        </div>
+        </div>
+
+        <div id="TituloR">
+            <p>Enchiladas Verdes</p>
+        </div>
+
+        <div id="Pasos">
+            <p> Cuece la pechuga de pollo en ague hirviendo con media cebolla y salpimienta al gusto.<br><br>
+            Cuando el pollo esté cocido (25 min aproximadamente), déjalo enfriar, desmenúzalo y reserva. <br><br>
+            <strong>Salsa:</strong> En una olla con agua hirviendo cuece los tomates verdes, media cebolla, el diente de ajo y los chiles serranos por 8 minutos.
+            <br><br>
+            Licua con el cilatro, agrega sal y pimienta al gusto y reserva. <br><br>
+            En un sartén caliente agrega dos cucharadas de aceite y pasa por este ambos lados de las tortillas. Inmediatamente rellena las
+            tortillas con el pollo deshebrado y arma los tacos que desees para colocarlos boca abajo en un plato. Luego baña los tacos con
+            la salsa verde y adorna con queso panela, crema y cebolla
+            </p>
+             </div>
+
+             <div id="Categoria">
+            <p>Dificultad: <br>Fácil</p>
+            <p>Tiempo Total: <br>45min</p>
+            <p>Cocción:<br> 35min</p>
+        </div>
+
+        <div id="Ingredientes">
+            <ul>
+            <li> Pollo Pechuga</li>
+            <li>Cebolla Blanca</li>
+            <li>Chile Serrano</li>
+            <li>Tomate Verde</li>
+            <li>Diente de Ajo</li>
+            <li>Cilantro</li>
+            <li>Queso Panela</li>
+            <li>Totilla de Maíz</li>
+            <li>Sal al gusto</li>
+            <li>Crema al gusto</li>
+            </ul>
+        </div>
+        <img src="https://cdn7.kiwilimon.com/recetaimagen/36938/1200x600/50874.jpg.webp"  id= "Imagen"> 
+
+         <div id="Navegacion">
+        <button id="Anterior">Anterior</button>
+         <span id="PaginaActual">1 / 1</span>
+        <button id="Siguiente">Siguiente</button>
+         </div>
+
         <div class="Separadores">
             <div id="AC">
                 <h2 class="SeparadorTitulo">A-C</h2>
@@ -60,5 +111,35 @@
         <img src="Separador.png" alt="Separador9">
         </div>
     </section>
+
+    <div id="ModalOverlay">
+  <div id="ModalContenido">
+    <button id="CerrarModal">✕</button>
+    <h2 id="ModalTitulo">Nueva Receta</h2>
+
+    <label>Título</label>
+    <input type="text" id="InputTitulo" placeholder="Nombre de la receta">
+
+    <label>Dificultad</label>
+    <input type="text" id="InputCategoria" placeholder="Ej: Fácil, 45min">
+    <label>Tiempo Total</label>
+    <input type="text" id="InputTiempo" placeholder="Ej: 45min">
+    <label>Cocción</label>
+    <input type="text" id="InputCoccion" placeholder="Ej: 35min">
+
+    <label>Ingredientes (uno por línea)</label>
+    <textarea id="InputIngredientes" rows="5" placeholder="- Pollo Cebolla"></textarea>
+
+    <label>Pasos</label>
+    <textarea id="InputPasos" rows="6" placeholder="Describe los pasos..."></textarea>
+
+    <label>URL de imagen</label>
+    <input type="text" id="InputImagen" placeholder="https://...">
+
+    <button id="GuardarReceta">Guardar</button>
+  </div>
+</div>
+
+    <script src="Recetas.js"></script>
 </body>
 </html>
